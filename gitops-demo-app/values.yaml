@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: acrgitopsdemo.azurecr.io/gitops-demo-app  # placeholder, confirmed/pushed in Phase 4
   pullPolicy: IfNotPresent
-  tag: "v0.1.0"
+  tag: "v0.2.0"
 
 imagePullSecrets: []
 nameOverride: ""
